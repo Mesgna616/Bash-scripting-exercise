@@ -1,3 +1,2 @@
-    echo " Hello World"
-    echo "This is Mesgna Woldeab"
-    
+echo Hello, World!
+echo This is Misgna Mehari
