@@ -16,7 +16,11 @@ result3=$(expr $result1 + $result2)
 echo " This is the aggergate of the two sum : $result3"
 
 # multiplication astrix is a wildcard , thus need to be escaped. 
+ # with double parenthesis there is no need to escape the wildcard
 
-result4=$(expr $var1 \* $var2)
-echo "This is multiplication result :$result "
+result4=$(( $var1 * $var2 ))
+echo "This is multiplication result :$result4 "
+
+result5=$( expr $var1 \* $var2 )
+echo "This is multiplication result :$result5 "
 
