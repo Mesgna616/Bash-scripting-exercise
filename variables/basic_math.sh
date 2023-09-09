@@ -13,3 +13,8 @@ echo "The result of subtraction is: $result2"
 # addition result 
 result3=$(expr $result1 + $result2)
 echo " This is the aggergate of the two sum : $result3"
+
+# multipulication astrix is a wildcard , thus need to be escaped. 
+
+result4=$(expr $var1 \* $var2)
+echo "This is multiplication result :$result4git "
