@@ -24,3 +24,12 @@ echo "This is multiplication result :$result4 "
 result5=$( expr $var1 \* $var2 )
 echo "This is multiplication result :$result5 "
 
+#Exponentiation (Power):
+
+#Bash doesn't have a built-in operator for exponentiation, but you can use external tools like bc for this purpose.
+result6=$(echo "2^3" | bc)
+
+echo "This the result for exponet :$result6"
+
+
+
