@@ -17,4 +17,4 @@ echo " This is the aggergate of the two sum : $result3"
 # multiplication astrix is a wildcard , thus need to be escaped. 
 
 result4=$(expr $var1 \* $var2)
-echo "This is multiplication result :$result4git "
+echo "This is multiplication result :$result "
