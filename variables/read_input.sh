@@ -15,3 +15,22 @@ echo "You entered your age as $age."
 read -p "Please enter your password: " -s password
 echo  $password
 echo "Password accepted."
+
+# Using the -a option to read input into an array
+echo "Enther your favorite colors, separted by space"
+read  -p "Your favorite color :" -a colors 
+echo "You entered"
+# Loop through the elements in the 'colors' array and display them
+for color in "${colors[@]}"; do
+echo "$color"
+done
+
+# Read input with a 5-second timeout
+read -t 10 -p "Enter something within 5 seconds: " input
+
+# Check if the input is empty
+if [ -z "$input" ]; then
+  echo "You didn't enter anything within 5 seconds."
+else
+  echo "You entered: $input"
+fi
