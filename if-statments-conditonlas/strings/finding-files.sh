@@ -14,7 +14,7 @@ found_files=$(find "$directory" -type f -name "$filename" 2>/dev/null)
 
 if [ -n "$found_files" ]; then
   echo "File(s) found:"
-  echo "$filename"
+  echo "$found_files"
 else
   echo "File not found: $filename"
 fi
