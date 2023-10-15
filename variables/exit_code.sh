@@ -1,0 +1,5 @@
+#!/bin/bash
+package=htop
+ sudo apt install  $package
+ echo " The exit code for the package  removed is: $?"
+
