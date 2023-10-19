@@ -4,7 +4,7 @@ for file in $files; do
   if [ -s "$file" ]; then
     echo "$file is not empty"
   else
-    echo "Empty file is found: $file"
+    echo " $file : Empty file is found: "
   fi
 done
 
