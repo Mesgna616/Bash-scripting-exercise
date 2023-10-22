@@ -1,11 +1,5 @@
 
 #!/bin/bash
-var1=10
-var2=10
-
-# Addition
-result=$(expr $var1 + $var2)
-echo "The result of addition is: $result"
 
 # Subtraction
 result2=$(expr $var1 - $var2)
