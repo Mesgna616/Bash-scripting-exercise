@@ -1,12 +1,7 @@
 #!/bin/bash
 
 # Prompt the user to enter names separated by spaces
-echo "Enter names separated by spaces:"
-read -r input_names
-
-# Convert the space-separated input to an array
-IFS=' ' read -r -a names <<< "$input_names"
-
+IFS=' ' read -r -a names -p "Enter names separated by spaces: "
 index=0
 while [ $index -lt ${#names[@]} ]; do
     current_name="${names[$index]}"
