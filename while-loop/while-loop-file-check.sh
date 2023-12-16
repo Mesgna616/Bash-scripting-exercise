@@ -1,6 +1,6 @@
 #!/bin/bash
 # Check the command-line argument value is given or not
-if [[ $# -gt 0 ]]; then
+if [[ "$#" -gt 0 ]]; then
  # Assign the filename from comand-line argument value
 filename=$1
  # Read file line by line
