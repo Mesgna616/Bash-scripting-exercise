@@ -47,4 +47,3 @@ function getInput() {
 }
 
 getInput();
-console.log(checkInput('0', '-20')); // Should return 'valid'
