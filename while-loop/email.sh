@@ -22,8 +22,8 @@ if ! grep -qE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' "$input_file"; th
 fi
 
 # Email addresses to replace
-old_email="mesgna@gmail.com"
-new_email="mesgna_mehari@gmail.com"
+old_email="mimi@yhaoo.com"
+new_email="mimi@uniper.com"
 
 # Create a temporary file
 temp_file=$(mktemp) || exit 1
