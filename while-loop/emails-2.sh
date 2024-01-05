@@ -26,7 +26,7 @@ fi
 temp_file=$(mktemp) || exit 1
 
 # Read input file line by line using a while loop
-
+while IFS= read -r line; do
     # Use sed to replace the old email with the new one
     modified_line=$(echo "$line" | sed "s/$old_email/$new_email/g")
     
