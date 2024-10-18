@@ -30,7 +30,7 @@ while IFS= read -r line; do
     # Use sed to replace the old email with the new one
     modified_line=$(echo "$line" | sed "s/$old_email/$new_email/g")
     
-    # Append modified line to the temporary file
+    # Append modified line to the temporary file done
     echo "$modified_line" >> "$temp_file"
 done < "$input_file"
 
